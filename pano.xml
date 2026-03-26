@@ -1,88 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node1" hassounds="0" appversion="7.1.11" apprev="21010">
+<tour apprev="21010" hassounds="0" appversion="7.1.11" start="node1">
   <panorama id="node1">
-    <input levelbiashidpi="1.000" width="2364" height="2364" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0" levelingroll="0" levelbias="0.400">
-      <level preload="0" predecode="0" width="2364" height="2364"/>
-      <level preload="0" predecode="0" width="1182" height="1182"/>
-      <level preload="0" predecode="0" width="591" height="591"/>
-      <level preload="1" predecode="1" width="295" height="295"/>
+    <input levelingpitch="0" width="2364" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" height="2364">
+      <level width="2364" predecode="0" height="2364" preload="0"/>
+      <level width="1182" predecode="0" height="1182" preload="0"/>
+      <level width="591" predecode="0" height="591" preload="0"/>
+      <level width="295" predecode="1" height="295" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start pan="0" fov="110" tilt="0" projection="4"/>
-      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+    <view fovmode="2" pannorth="0">
+      <start projection="4" pan="0" fov="110" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
       <min pan="0" tilt="-90" fovpixel="0.5"/>
-      <max fovstereographic="330" pan="360" fov="120" tilt="90" fovfisheye="360" scaletofit="1"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata author="" nodeid="node1" comment="" source="" longitude="121.57836556" latitude="24.02309917" copyright="" customnodeid="" description="&lt;div class=&quot;ggmarkdown&quot;>&lt;p>&lt;a href=&quot;https://maps.app.goo.gl/3cRHmWpbaQXSKYDV9&quot;>撒固兒瀑布（Sakur Waterfall）&lt;/a>&lt;/p>&#xa;&lt;p>是花蓮市郊非常容易抵達且深受當地人喜愛的自然景點。它位於花蓮市國福里，過去曾被稱為「佐倉瀑布」，後來恢復撒奇萊雅族（Sakizaya）的族語名稱「撒固兒」。&lt;/p>&#xa;&lt;div>" info="" tags="Pano" heading="0" title="撒固兒瀑布" datetime="2025/9/9 12:12"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" textalpha="1" wordwrap="1" background="1" width="180" height="20" textcolor="0x000000" border="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderradius="1" enabled="1" borderalpha="1"/>
-      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
-      <hotspot pan="-230.45" target="" description="" tilt="-7.87" skinid="ht_node" url="{node2}" title="撒固兒瀑布" id="Point01"/>
-      <hotspot pan="-229.45" target="" description="" tilt="8.48" skinid="ht_node" url="{node3}" title="撒固兒瀑布" id="Point02"/>
+    <userdata author="" longitude="121.57836556" datetime="2025/9/9 12:12" tags="Pano" heading="0" title="撒固兒瀑布" latitude="24.02309917" description="&lt;a href=&quot;https://maps.app.goo.gl/3cRHmWpbaQXSKYDV9&quot; target=&quot;_blank&quot; style=&quot;color: #ffaa00; text-decoration: none;&quot;>撒固兒瀑布地圖&lt;/a>&#xa;&#xa;是花蓮市郊非常容易抵達且深受當地人喜愛的自然景點。它位於花蓮市國福里，過去曾被稱為「佐倉瀑布」，後來恢復撒奇萊雅族（Sakizaya）的族語名稱「撒固兒」。&#xa;&#xa;" customnodeid="" info="" source="" nodeid="node1" copyright="" comment=""/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label borderradius="1" width="180" enabled="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff" wordwrap="1" height="20" background="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot pan="-230.45" title="撒固兒瀑布" skinid="ht_node" url="{node2}" tilt="-7.87" id="Point01" description="" target=""/>
+      <hotspot pan="-229.45" title="撒固兒瀑布" skinid="ht_node" url="{node3}" tilt="8.48" id="Point02" description="" target=""/>
     </hotspots>
     <media/>
-    <transition zoomout="0" zoomspeed="2" type="crossdissolve" zoomafterinfov="140" softedge="0" zoomafteroutfov="40" zoomfov="40" blendtime="1" blendcolor="0x000000" enabled="1" delay="none" zoomoutpause="1" zoomin="0"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertwheel="0" rubberband="0" simulatemass="1" speedwheel="1" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" sensitivity="8" contextfullscreen="1" contextvr="1" lockedmouse="0"/>
+    <transition blendtime="1" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomafterinfov="140" zoomoutpause="1" type="crossdissolve" zoomfov="40" zoomafteroutfov="40" zoomin="0" zoomout="0" delay="none" softedge="0"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control lockedmouse="0" invertwheel="0" contextvr="1" contextprojections="0" contextfullscreen="1" zoomcentercursor="1" rubberband="0" sensitivity="8" dblclickfullscreen="0" invertcontrol="1" hideabout="0" lockedkeyboardzoom="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" simulatemass="1"/>
   </panorama>
   <panorama id="node2">
-    <input levelbiashidpi="1.000" width="2363" height="2363" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0" levelingroll="0" levelbias="0.400">
-      <level preload="0" predecode="0" width="2363" height="2363"/>
-      <level preload="0" predecode="0" width="1181" height="1181"/>
-      <level preload="0" predecode="0" width="590" height="590"/>
-      <level preload="1" predecode="1" width="295" height="295"/>
+    <input levelingpitch="0" width="2363" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" height="2363">
+      <level width="2363" predecode="0" height="2363" preload="0"/>
+      <level width="1181" predecode="0" height="1181" preload="0"/>
+      <level width="590" predecode="0" height="590" preload="0"/>
+      <level width="295" predecode="1" height="295" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start pan="0" fov="110" tilt="0" projection="4"/>
-      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+    <view fovmode="2" pannorth="0">
+      <start projection="4" pan="0" fov="110" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
       <min pan="0" tilt="-90" fovpixel="0.5"/>
-      <max fovstereographic="330" pan="360" fov="120" tilt="90" fovfisheye="360" scaletofit="1"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata author="" nodeid="node2" comment="" source="" longitude="" latitude="" copyright="" customnodeid="" description="步道特色&#xa;輕鬆平緩：步道全長僅約 570 公尺，單程步行約 10 至 15 分鐘即可抵達瀑布。坡度非常平緩，採碎石路與木棧道設計，適合全家大小健行。&#xa;環狀設計：步道採環狀設計，您可以選擇原路折返，或是沿著環狀路線走一圈（全程約 30 分鐘內），從不同角度欣賞森林景致。" info="" tags="Pano" heading="0" title="撒固兒瀑布" datetime="2025/9/9 12:17"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" textalpha="1" wordwrap="1" background="1" width="180" height="20" textcolor="0x000000" border="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderradius="1" enabled="1" borderalpha="1"/>
-      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
-      <hotspot pan="-21.28" target="" description="" tilt="0.83" skinid="ht_node" url="{node1}" title="撒固兒瀑布" id="Point01"/>
-      <hotspot pan="-207.59" target="" description="" tilt="15.99" skinid="ht_node" url="{node3}" title="撒固兒瀑布" id="Point02"/>
+    <userdata author="" longitude="" datetime="2025/9/9 12:17" tags="Pano" heading="0" title="撒固兒瀑布" latitude="" description="步道特色&#xa;輕鬆平緩：步道全長僅約 570 公尺，單程步行約 10 至 15 分鐘即可抵達瀑布。坡度非常平緩，採碎石路與木棧道設計，適合全家大小健行。&#xa;環狀設計：步道採環狀設計，您可以選擇原路折返，或是沿著環狀路線走一圈（全程約 30 分鐘內），從不同角度欣賞森林景致。" customnodeid="" info="" source="" nodeid="node2" copyright="" comment=""/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label borderradius="1" width="180" enabled="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff" wordwrap="1" height="20" background="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot pan="-21.28" title="撒固兒瀑布" skinid="ht_node" url="{node1}" tilt="0.83" id="Point01" description="" target=""/>
+      <hotspot pan="-207.59" title="撒固兒瀑布" skinid="ht_node" url="{node3}" tilt="15.99" id="Point02" description="" target=""/>
     </hotspots>
     <media/>
-    <transition zoomout="0" zoomspeed="2" type="crossdissolve" zoomafterinfov="140" softedge="0" zoomafteroutfov="40" zoomfov="40" blendtime="1" blendcolor="0x000000" enabled="1" delay="none" zoomoutpause="1" zoomin="0"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertwheel="0" rubberband="0" simulatemass="1" speedwheel="1" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" sensitivity="8" contextfullscreen="1" contextvr="1" lockedmouse="0"/>
+    <transition blendtime="1" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomafterinfov="140" zoomoutpause="1" type="crossdissolve" zoomfov="40" zoomafteroutfov="40" zoomin="0" zoomout="0" delay="none" softedge="0"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control lockedmouse="0" invertwheel="0" contextvr="1" contextprojections="0" contextfullscreen="1" zoomcentercursor="1" rubberband="0" sensitivity="8" dblclickfullscreen="0" invertcontrol="1" hideabout="0" lockedkeyboardzoom="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" simulatemass="1"/>
   </panorama>
   <panorama id="node3">
-    <input levelbiashidpi="1.000" width="2365" height="2365" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0" levelingroll="0" levelbias="0.400">
-      <level preload="0" predecode="0" width="2365" height="2365"/>
-      <level preload="0" predecode="0" width="1182" height="1182"/>
-      <level preload="0" predecode="0" width="591" height="591"/>
-      <level preload="1" predecode="1" width="295" height="295"/>
+    <input levelingpitch="0" width="2365" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" height="2365">
+      <level width="2365" predecode="0" height="2365" preload="0"/>
+      <level width="1182" predecode="0" height="1182" preload="0"/>
+      <level width="591" predecode="0" height="591" preload="0"/>
+      <level width="295" predecode="1" height="295" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start pan="0" fov="110" tilt="0" projection="4"/>
-      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+    <view fovmode="2" pannorth="0">
+      <start projection="4" pan="0" fov="110" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
       <min pan="0" tilt="-90" fovpixel="0.5"/>
-      <max fovstereographic="330" pan="360" fov="120" tilt="90" fovfisheye="360" scaletofit="1"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata author="" nodeid="node3" comment="" source="" longitude="" latitude="" copyright="" customnodeid="" description="順遊建議&#xa;佐倉步道：撒固兒步道的入口與「佐倉步道」相連。若您覺得撒固兒步道太簡單，想挑戰更高難度的健行，可以轉往佐倉步道，登高俯瞰整個花蓮平原與太平洋。&#xa;國福落羽松：若在秋冬季節前往，附近的國福里社區也有落羽松林可以順道拍美照。" info="" tags="Pano" heading="0" title="撒固兒瀑布" datetime="2025/9/9 12:24"/>
-    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" textalpha="1" wordwrap="1" background="1" width="180" height="20" textcolor="0x000000" border="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderradius="1" enabled="1" borderalpha="1"/>
-      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
-      <hotspot pan="-353.58" target="" description="" tilt="-22.17" skinid="ht_node" url="{node2}" title="撒固兒瀑布" id="Point01"/>
-      <hotspot pan="-352.76" target="" description="" tilt="-10.25" skinid="ht_node" url="{node1}" title="撒固兒瀑布" id="Point02"/>
+    <userdata author="" longitude="" datetime="2025/9/9 12:24" tags="Pano" heading="0" title="撒固兒瀑布" latitude="" description="順遊建議&#xa;佐倉步道：撒固兒步道的入口與「佐倉步道」相連。若您覺得撒固兒步道太簡單，想挑戰更高難度的健行，可以轉往佐倉步道，登高俯瞰整個花蓮平原與太平洋。&#xa;國福落羽松：若在秋冬季節前往，附近的國福里社區也有落羽松林可以順道拍美照。" customnodeid="" info="" source="" nodeid="node3" copyright="" comment=""/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label borderradius="1" width="180" enabled="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff" wordwrap="1" height="20" background="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot pan="-353.58" title="撒固兒瀑布" skinid="ht_node" url="{node2}" tilt="-22.17" id="Point01" description="" target=""/>
+      <hotspot pan="-352.76" title="撒固兒瀑布" skinid="ht_node" url="{node1}" tilt="-10.25" id="Point02" description="" target=""/>
     </hotspots>
     <media/>
-    <transition zoomout="0" zoomspeed="2" type="crossdissolve" zoomafterinfov="140" softedge="0" zoomafteroutfov="40" zoomfov="40" blendtime="1" blendcolor="0x000000" enabled="1" delay="none" zoomoutpause="1" zoomin="0"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertwheel="0" rubberband="0" simulatemass="1" speedwheel="1" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" sensitivity="8" contextfullscreen="1" contextvr="1" lockedmouse="0"/>
+    <transition blendtime="1" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomafterinfov="140" zoomoutpause="1" type="crossdissolve" zoomfov="40" zoomafteroutfov="40" zoomin="0" zoomout="0" delay="none" softedge="0"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control lockedmouse="0" invertwheel="0" contextvr="1" contextprojections="0" contextfullscreen="1" zoomcentercursor="1" rubberband="0" sensitivity="8" dblclickfullscreen="0" invertcontrol="1" hideabout="0" lockedkeyboardzoom="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" simulatemass="1"/>
   </panorama>
   <masternode>
-    <userdata author="" comment="" description="" tags="" title="撒固兒瀑布" copyright=""/>
+    <userdata comment="" tags="" title="撒固兒瀑布" copyright="" description="" author=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
+    <translations>
+      <json>{"languages":["en","ja","ko"],"projectLanguage":"zh-TW","translations":{"2025/9/9 12:12":["","",""],"2025/9/9 12:17":["","",""],"2025/9/9 12:24":["","",""],"&lt;a href=\"https://maps.app.goo.gl/3cRHmWpbaQXSKYDV9\" target=\"_blank\" style=\"color: #ffaa00; text-decoration: none;\">撒固兒瀑布地圖&lt;/a>\n\n是花蓮市郊非常容易抵達且深受當地人喜愛的自然景點。它位於花蓮市國福里，過去曾被稱為「佐倉瀑布」，後來恢復撒奇萊雅族（Sakizaya）的族語名稱「撒固兒」。\n\n":["&lt;a href=\"https://maps.app.goo.gl/3cRHmWpbaQXSKYDV9\" target=\"_blank\" style=\"color: #ffaa00; text-decoration: none;\">Sakur Waterfall&lt;/a>\n\nSakur Waterfall is an easily accessible natural attraction on the outskirts of Hualien City, much loved by locals. Located in Guofu Village, Hualien City, it was formerly known as \"Sakura Waterfall\" but has since reverted to its original Sakizaya name, \"Sakur.\"\n\n","&lt;a href=\"https://maps.app.goo.gl/3cRHmWpbaQXSKYDV9\" target=\"_blank\" style=\"color: #ffaa00; text-decoration: none;\">撒固兒瀑布（サクールの滝）&lt;/a>\n\n花蓮市郊外に位置するサクールの滝は、アクセスが非常に良く、地元の人々に愛されている自然スポットです。花蓮市国福里にあり、かつては「佐倉の滝」と呼ばれていましたが、後にサキザヤ族（Sakizaya）の言葉である「サクール（Sakur）」という名称に戻されました。\n\n","&lt;a href=\"https://maps.app.goo.gl/3cRHmWpbaQXSKYDV9\" target=\"_blank\" style=\"color: #ffaa00; text-decoration: none;\">사쿠얼 폭포（Sakur Waterfall）&lt;/a>\n\n사쿠얼 폭포는 화롄 시내 근교에서 접근성이 매우 좋아 현지인들에게 사랑받는 자연 명소입니다. 화롄시 궈푸리에 위치하며, 과거에는 '사쿠라 폭포'라고 불렸으나 이후 사키자야족(Sakizaya)의 고유어 명칭인 '사쿠얼(Sakur)'로 회복되었습니다.&lt;/p>\n\n"],"Enter Fullscreen":["","",""],"Enter VR":["","",""],"Exit Fullscreen":["","",""],"撒固兒瀑布":["Sakur Waterfall","サクールの滝","사쿠얼 폭포"],"步道特色\n輕鬆平緩：步道全長僅約 570 公尺，單程步行約 10 至 15 分鐘即可抵達瀑布。坡度非常平緩，採碎石路與木棧道設計，適合全家大小健行。\n環狀設計：步道採環狀設計，您可以選擇原路折返，或是沿著環狀路線走一圈（全程約 30 分鐘內），從不同角度欣賞森林景致。":["Trail Features\nEasy and Flat: The trail is only about 570 meters long, reaching the waterfall in just 10 to 15 minutes (one way). With a very gentle slope and a design featuring gravel paths and wooden boardwalks, it is perfect for family hiking.\nCircular Design: The trail follows a loop. You can choose to return the same way or walk the full circle (about 30 minutes total) to enjoy the forest scenery from different angles.","遊歩道の特色\n楽で平坦： 全長わずか約570メートルで、片道10〜15分ほどで滝に到着します。傾斜は非常に緩やかで、砂利道と木道が整備されており、ご家族揃ってのハイキングに最適です。\n環状ルート： ルートは環状（ループ）になっており、同じ道を戻ることも、一周（全行程約30分以内）して異なる角度から森の景色を楽しむこともできます。","탐방로 특징\n쉽고 평탄함: 탐방로 총 길이는 약 570m로, 편도 10~15분이면 폭포에 도착합니다. 경사가 매우 완만하며 자갈길과 데크 길로 설계되어 온 가족이 함께 하이킹하기 좋습니다.\n순환형 설계: 순환형으로 설계되어 왔던 길로 되돌아가거나, 한 바퀴(총 소요 시간 약 30분 이내)를 돌며 다양한 각도에서 숲의 풍경을 감상할 수 있습니다."],"順遊建議\n佐倉步道：撒固兒步道的入口與「佐倉步道」相連。若您覺得撒固兒步道太簡單，想挑戰更高難度的健行，可以轉往佐倉步道，登高俯瞰整個花蓮平原與太平洋。\n國福落羽松：若在秋冬季節前往，附近的國福里社區也有落羽松林可以順道拍美照。":["Suggested Side Trips\nSakul Trail: The entrance to Sakur Trail connects with the Sakul Trail. If you find Sakur Trail too easy and seek a more challenging hike, you can head to Sakul Trail to overlook the entire Hualien Plain and the Pacific Ocean from a high vantage point.\nGuofu Bald Cypress: If visiting in autumn or winter, the nearby Guofu Village community features beautiful bald cypress forests, perfect for taking stunning photos.","周辺のおすすめスポット\n佐倉（サクル）遊歩道： 撒固兒（サクール）遊歩道の入り口は「佐倉遊歩道」に繋がっています。サクール遊歩道では物足りず、より手応えのあるハイキングに挑戦したい方は、佐倉遊歩道へどうぞ。高台から花蓮平野と太平洋を一望できます。\n国福のラクウショウ： 秋から冬にかけて訪れるなら、近くの国福里コミュニティにあるラクウショウ（落羽松）の並木道もおすすめです。SNS映えする写真撮影にぴったりです。","연계 관광 제안\n사쿠라 산책로 (Sakul Trail): 사쿠얼 산책로 입구는 '사쿠라 산책로'와 연결되어 있습니다. 사쿠얼 산책로가 너무 평탄하여 더 도전적인 하이킹을 원하신다면 사쿠라 산책로를 추천합니다. 높은 곳에서 화롄 평원과 태평양을 한눈에 내려다볼 수 있습니다.\n궈푸 낙우송 (Guofu Bald Cypress): 가을이나 겨울철에 방문하신다면 인근 궈푸리 마을에 있는 낙우송 숲에 들러 예쁜 인생샷을 남겨보세요."]}}</json>
+      <projecttranslation langname="繁體中文" langcode="zh-TW"/>
+      <projecttranslation langname="English" langcode="en"/>
+      <projecttranslation langname="日本語" langcode="ja"/>
+      <projecttranslation langname="한국어" langcode="ko"/>
+    </translations>
   </masternode>
-  <map type="web" mapprovider="openstreetmap" googlecustomstylecode="" mapmaxzoom="18" id="Map01" index="0" mapstyle="streets" title="" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
+  <map title="" mapprovider="openstreetmap" id="Map01" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" type="web" index="0" mapstyle="streets" mapmaxzoom="18" googlecustomstylecode=""/>
 </tour>
