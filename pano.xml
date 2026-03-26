@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" hassounds="0" appversion="7.1.11" apprev="21010">
+  <panorama id="node1">
+    <input levelbiashidpi="1.000" width="2364" height="2364" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0" levelingroll="0" levelbias="0.400">
+      <level preload="0" predecode="0" width="2364" height="2364"/>
+      <level preload="0" predecode="0" width="1182" height="1182"/>
+      <level preload="0" predecode="0" width="591" height="591"/>
+      <level preload="1" predecode="1" width="295" height="295"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start pan="0" fov="110" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="0.5"/>
+      <max fovstereographic="330" pan="360" fov="120" tilt="90" fovfisheye="360" scaletofit="1"/>
+    </view>
+    <userdata author="" nodeid="node1" comment="" source="" longitude="121.57836556" latitude="24.02309917" copyright="" customnodeid="" description="&lt;div class=&quot;ggmarkdown&quot;>&lt;p>&lt;a href=&quot;https://maps.app.goo.gl/3cRHmWpbaQXSKYDV9&quot;>撒固兒瀑布（Sakur Waterfall）&lt;/a>&lt;/p>&#xa;&lt;p>是花蓮市郊非常容易抵達且深受當地人喜愛的自然景點。它位於花蓮市國福里，過去曾被稱為「佐倉瀑布」，後來恢復撒奇萊雅族（Sakizaya）的族語名稱「撒固兒」。&lt;/p>&#xa;&lt;div>" info="" tags="Pano" heading="0" title="撒固兒瀑布" datetime="2025/9/9 12:12"/>
+    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
+      <label backgroundalpha="1" textalpha="1" wordwrap="1" background="1" width="180" height="20" textcolor="0x000000" border="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderradius="1" enabled="1" borderalpha="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-230.45" target="" description="" tilt="-7.87" skinid="ht_node" url="{node2}" title="撒固兒瀑布" id="Point01"/>
+      <hotspot pan="-229.45" target="" description="" tilt="8.48" skinid="ht_node" url="{node3}" title="撒固兒瀑布" id="Point02"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" zoomspeed="2" type="crossdissolve" zoomafterinfov="140" softedge="0" zoomafteroutfov="40" zoomfov="40" blendtime="1" blendcolor="0x000000" enabled="1" delay="none" zoomoutpause="1" zoomin="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" rubberband="0" simulatemass="1" speedwheel="1" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" sensitivity="8" contextfullscreen="1" contextvr="1" lockedmouse="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelbiashidpi="1.000" width="2363" height="2363" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0" levelingroll="0" levelbias="0.400">
+      <level preload="0" predecode="0" width="2363" height="2363"/>
+      <level preload="0" predecode="0" width="1181" height="1181"/>
+      <level preload="0" predecode="0" width="590" height="590"/>
+      <level preload="1" predecode="1" width="295" height="295"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start pan="0" fov="110" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="0.5"/>
+      <max fovstereographic="330" pan="360" fov="120" tilt="90" fovfisheye="360" scaletofit="1"/>
+    </view>
+    <userdata author="" nodeid="node2" comment="" source="" longitude="" latitude="" copyright="" customnodeid="" description="步道特色&#xa;輕鬆平緩：步道全長僅約 570 公尺，單程步行約 10 至 15 分鐘即可抵達瀑布。坡度非常平緩，採碎石路與木棧道設計，適合全家大小健行。&#xa;環狀設計：步道採環狀設計，您可以選擇原路折返，或是沿著環狀路線走一圈（全程約 30 分鐘內），從不同角度欣賞森林景致。" info="" tags="Pano" heading="0" title="撒固兒瀑布" datetime="2025/9/9 12:17"/>
+    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
+      <label backgroundalpha="1" textalpha="1" wordwrap="1" background="1" width="180" height="20" textcolor="0x000000" border="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderradius="1" enabled="1" borderalpha="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-21.28" target="" description="" tilt="0.83" skinid="ht_node" url="{node1}" title="撒固兒瀑布" id="Point01"/>
+      <hotspot pan="-207.59" target="" description="" tilt="15.99" skinid="ht_node" url="{node3}" title="撒固兒瀑布" id="Point02"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" zoomspeed="2" type="crossdissolve" zoomafterinfov="140" softedge="0" zoomafteroutfov="40" zoomfov="40" blendtime="1" blendcolor="0x000000" enabled="1" delay="none" zoomoutpause="1" zoomin="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" rubberband="0" simulatemass="1" speedwheel="1" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" sensitivity="8" contextfullscreen="1" contextvr="1" lockedmouse="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input levelbiashidpi="1.000" width="2365" height="2365" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0" levelingroll="0" levelbias="0.400">
+      <level preload="0" predecode="0" width="2365" height="2365"/>
+      <level preload="0" predecode="0" width="1182" height="1182"/>
+      <level preload="0" predecode="0" width="591" height="591"/>
+      <level preload="1" predecode="1" width="295" height="295"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start pan="0" fov="110" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="0.5"/>
+      <max fovstereographic="330" pan="360" fov="120" tilt="90" fovfisheye="360" scaletofit="1"/>
+    </view>
+    <userdata author="" nodeid="node3" comment="" source="" longitude="" latitude="" copyright="" customnodeid="" description="順遊建議&#xa;佐倉步道：撒固兒步道的入口與「佐倉步道」相連。若您覺得撒固兒步道太簡單，想挑戰更高難度的健行，可以轉往佐倉步道，登高俯瞰整個花蓮平原與太平洋。&#xa;國福落羽松：若在秋冬季節前往，附近的國福里社區也有落羽松林可以順道拍美照。" info="" tags="Pano" heading="0" title="撒固兒瀑布" datetime="2025/9/9 12:24"/>
+    <hotspots smoothmovement="0" wordwrap="1" width="180" height="20">
+      <label backgroundalpha="1" textalpha="1" wordwrap="1" background="1" width="180" height="20" textcolor="0x000000" border="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderradius="1" enabled="1" borderalpha="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-353.58" target="" description="" tilt="-22.17" skinid="ht_node" url="{node2}" title="撒固兒瀑布" id="Point01"/>
+      <hotspot pan="-352.76" target="" description="" tilt="-10.25" skinid="ht_node" url="{node1}" title="撒固兒瀑布" id="Point02"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" zoomspeed="2" type="crossdissolve" zoomafterinfov="140" softedge="0" zoomafteroutfov="40" zoomfov="40" blendtime="1" blendcolor="0x000000" enabled="1" delay="none" zoomoutpause="1" zoomin="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" rubberband="0" simulatemass="1" speedwheel="1" zoomcentercursor="1" hideabout="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1" sensitivity="8" contextfullscreen="1" contextvr="1" lockedmouse="0"/>
+  </panorama>
+  <masternode>
+    <userdata author="" comment="" description="" tags="" title="撒固兒瀑布" copyright=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+  <map type="web" mapprovider="openstreetmap" googlecustomstylecode="" mapmaxzoom="18" id="Map01" index="0" mapstyle="streets" title="" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
+</tour>
